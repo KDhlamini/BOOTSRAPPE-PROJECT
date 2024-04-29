@@ -551,8 +551,8 @@ padding-top: 16px;
     overflow: hidden;
     p{
         font-size: 12px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
         margin: 15px;
     }
    
@@ -587,8 +587,8 @@ padding-top: 16px;
     }
  
  .form-control {
-   width: 240px; 
-   margin-right: px;
+    margin-left: -25px;
+   width: 310px; 
    font-size: 10px;
    padding: 5px;
    
@@ -606,7 +606,8 @@ padding-top: 16px;
     padding-left: 34px;
  }
  .message{
-    width: 313px;
+    margin-left: -25px;
+    width: 305px;
     padding: 5px;
     font-size: 15px;
  }
@@ -614,9 +615,9 @@ padding-top: 16px;
     padding: 0px;
  }
  .send{
-    margin-left: 0px;
-    margin: 0px;
-    margin-top: 3px;
+    
+    margin: -23px;
+    margin-top: 5px;
     font-size: 12px; 
     width: 50px;
     padding: 5px;
@@ -625,14 +626,14 @@ padding-top: 16px;
 
 .footer{
    padding-top: 40px;
-   padding-bottom: 40px;
+   padding-bottom: 20px;
 
     h4{
         font-size: 13px;
     }
     p{
         font-size: 12px;
-        margin-bottom: 30px;
+        // margin-bottom: 30px;
     }
     .colunm{
         margin-bottom: 15px;
