@@ -7,9 +7,19 @@
   font-family: Montserrat;
   src: url("Montserrat-Bold.ttf");
 }
+.navigation.scrolled {
+  background-color: blue;
+}
+
+.navigation.scrolled.nav a {
+  color: white;
+}
+
 .navigation {
   font-family: Montserrat;
   background-color: #2d3e50;
+  position: sticky;
+  top: 0;
 }
 .navigation .container {
   display: flex;
@@ -325,7 +335,7 @@
   .menu {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 10px;
     color: white;
   }
   .container .dropdown {
@@ -467,6 +477,7 @@
     font-size: 12px;
   }
   .footer .colunm {
+    margin-top: 25px;
     margin-bottom: 15px;
   }
   .footer .bee1 {

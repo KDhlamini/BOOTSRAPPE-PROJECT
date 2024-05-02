@@ -21,9 +21,9 @@
         <p>START BOOTSTRAP</p>
 
 <div class="nav">
-    <a href="#">PORTFOLIO</a>
-    <a href="#">ABOUT</a>
-    <a href="#">CONTACT</a>
+    <a href="#portfolio">PORTFOLIO</a>
+    <a href="#about">ABOUT</a>
+    <a href="#contact us">CONTACT US</a>
     
 </div>
      </div>
@@ -31,10 +31,10 @@
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
-          <a href="#">PORTFOLIO</a>
-          <a href="#">ABOUT</a>
+          <a href="#portfolio">PORTFOLIO</a>
+          <a href="#about">ABOUT</a>
           <!-- <a href="#">Clients</a> -->
-          <a href="#">CONTACT US</a>
+          <a href="#contact us">CONTACT US</a>
         </div>
       </div>
       
@@ -70,6 +70,9 @@
 </div>
 
 <!-- portfolio -->
+
+<section id="portfolio">
+
 <div class="portfolio">
     <div class="container">
         <div class="head">
@@ -113,11 +116,11 @@
 </div> 
 </div>
 
-
+</section>
 <!-- About -->
 
    
-
+<div id="about">
 <section class="about">
     
     <div class="container">
@@ -146,7 +149,7 @@
       
     </div>
 </section>
-
+</div>
 
 
 <!-- contact -->
@@ -210,7 +213,7 @@
 
 
 <!-- footer -->
-<section>
+<section id="contact us">
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -269,15 +272,7 @@
 <!-- end copy -->
 
 
-<script>
-    function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-    }
-    
-    function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-    }
-    </script>
+<script src="index.js"></script>
     
 
 

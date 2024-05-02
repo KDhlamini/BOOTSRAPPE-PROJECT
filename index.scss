@@ -64,10 +64,20 @@ $lineone:1px;
  }
 
 }
+.navigation.scrolled{
+    background-color: blue
+}
+.navigation.scrolled.nav a{
+    color: white
+}
 
 .navigation{
     @include navigation;
+    position: sticky;
+    top: 0;
+    
 }
+
 
 
 
@@ -471,7 +481,7 @@ h2{
     .menu{
         position: absolute;
         top: 0;
-        right: 0;
+        right: 10px;
         color: white;
       }
    .container{
@@ -636,6 +646,7 @@ padding-top: 16px;
         // margin-bottom: 30px;
     }
     .colunm{
+        margin-top: 25px;
         margin-bottom: 15px;
     }
     .bee1{
