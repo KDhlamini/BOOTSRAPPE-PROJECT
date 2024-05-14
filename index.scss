@@ -85,8 +85,8 @@ $lineone:1px;
 @mixin banner{
     font-family: Montserrat;
     background-color:$b-grd-color-aq;
-    padding-top: 50px;
-    padding-bottom: 34px;
+    padding-top: 120px;
+    padding-bottom: 99px;
 
     img{
         width: 100%;
@@ -1081,6 +1081,11 @@ p{
 }
 
 
+}
+@media (min-width:1399.98px) {
+    .contact .message {
+        width: 100%;
+    }
 }
 
 
