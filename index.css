@@ -558,6 +558,7 @@
   }
   .portfolio img {
     height: 15vh;
+    margin: 12px;
   }
   .about {
     padding-top: 40px;
@@ -614,7 +615,7 @@
     text-align: center;
   }
   .contact .message {
-    width: 700px;
+    width: 587px;
     padding: 10px;
     font-size: 24px;
   }
@@ -724,6 +725,7 @@
   }
   .portfolio img {
     height: 15vh;
+    margin: 15px;
   }
   .about {
     padding-top: 40px;
@@ -764,7 +766,7 @@
     margin-right: 0px;
   }
   .contact .form-control {
-    width: 500px;
+    width: 700px;
     margin-right: 0px;
     font-size: 20px;
     padding: 5px;
@@ -838,5 +840,11 @@
 @media (min-width: 1399.98px) {
   .contact .message {
     width: 100%;
+  }
+  .portfolio .lilli {
+    margin: 1px;
+  }
+  .portfolio .straight {
+    margin: 1px;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -751,6 +751,7 @@ p{
             }
             img{
                 height: 15vh;
+                margin: 12px;
             }
 
         }
@@ -817,7 +818,7 @@ p{
             text-align: center;
          }
          .message{
-            width: 700px;
+            width: 587px;
             padding: 10px;
             font-size: 24px;
          }
@@ -951,6 +952,7 @@ height: 10vh;
     }
     img{
         height: 15vh;
+        margin: 15px;
     }
 
 }
@@ -998,7 +1000,7 @@ height: 10vh;
     }
  
  .form-control {
-   width: 500px; 
+   width: 700px; 
    margin-right: 0px;
    font-size: 20px;
    padding: 5px;
@@ -1085,6 +1087,14 @@ p{
 @media (min-width:1399.98px) {
     .contact .message {
         width: 100%;
+    }
+    .portfolio{
+        .lilli{
+            margin: 1px;
+        }
+        .straight{
+            margin: 1px;
+        }
     }
 }
 
