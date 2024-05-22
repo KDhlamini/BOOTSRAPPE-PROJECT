@@ -1085,6 +1085,9 @@ p{
 
 }
 @media (min-width:1399.98px) {
+    .body{
+        overflow: hidden;
+    }
     .contact .message {
         width: 100%;
     }
@@ -1095,7 +1098,70 @@ p{
         .straight{
             margin: 1px;
         }
+        img{
+            height: 36vh;
+
+        }
+        .row {
+            padding: 33px;  
+       }
+}
+}
+@media only screen and (min-width: 766.9px)and (max-width: 767.9px){
+    .portfolio{
+        font-family: Montserrat;
+        padding-top: 67px;
+        margin-bottom: 70px;
+        h2{
+           margin-bottom: 12px; 
+           
+        }
+        .head{
+            text-align: center;
+        }
+    
+    .images{
+        padding-bottom: 15px;
     }
+    
+    
+        img{
+         
+            height: 40vh;
+        }
+        .row{
+            padding: 4px;
+    
+        }
+    
+        .line{
+            width: $base-width;
+            border: $linetwo solid $black;
+            margin-bottom: 8px;
+            
+         }
+         span{
+            display: inline-block;
+            margin: 5px;
+         }
+        
+        .line2{
+            width: $base-width;
+            border:$linetwo solid $black;
+            margin-bottom: 8px;
+            
+         }
+         span{
+            display: inline-block;
+            margin: 5px;
+         }
+        
+    }
+    .portfolio{
+        @include portfolio;
+    }
+
+
 }
 
 
