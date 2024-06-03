@@ -162,7 +162,7 @@ h1{
 
     img{
      
-        height: 40vh;
+        height: 42.3vh;
     }
     .row{
         padding: 4px;
@@ -1099,14 +1099,37 @@ p{
             margin: 1px;
         }
         img{
-            height: 36vh;
+            height: 39vh;
 
         }
         .row {
-            padding: 33px;  
+            padding: 28px;  
        }
 }
 }
+
+@media (min-width:1600px) {
+    .body{
+        overflow: hidden;
+    }
+    .portfolio{
+        .lilli{
+            margin: 1px;
+        }
+        .straight{
+            margin: 1px;
+        }
+        img{
+            height: 37vh;
+
+        }
+        .row {
+            padding: 28px;  
+       }
+}
+
+}
+
 @media only screen and (min-width: 766.9px)and (max-width: 767.9px){
     .portfolio{
         font-family: Montserrat;

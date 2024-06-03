@@ -92,7 +92,7 @@
   padding-bottom: 15px;
 }
 .portfolio img {
-  height: 40vh;
+  height: 42.3vh;
 }
 .portfolio .row {
   padding: 4px;
@@ -851,10 +851,27 @@
     margin: 1px;
   }
   .portfolio img {
-    height: 36vh;
+    height: 39vh;
   }
   .portfolio .row {
-    padding: 33px;
+    padding: 28px;
+  }
+}
+@media (min-width: 1600px) {
+  .body {
+    overflow: hidden;
+  }
+  .portfolio .lilli {
+    margin: 1px;
+  }
+  .portfolio .straight {
+    margin: 1px;
+  }
+  .portfolio img {
+    height: 37vh;
+  }
+  .portfolio .row {
+    padding: 28px;
   }
 }
 @media only screen and (min-width: 766.9px) and (max-width: 767.9px) {
@@ -911,7 +928,7 @@
     padding-bottom: 15px;
   }
   .portfolio img {
-    height: 40vh;
+    height: 42.3vh;
   }
   .portfolio .row {
     padding: 4px;
