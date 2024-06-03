@@ -8,7 +8,7 @@
   src: url("Montserrat-Bold.ttf");
 }
 .navigation.scrolled {
-  background-color: blue;
+  background-color: #1bbc9b;
 }
 
 .navigation.scrolled.nav a {
@@ -185,14 +185,14 @@
 }
 .footer i {
   background-color: "";
-  padding: 20px;
+  padding: 13px;
   border-radius: 50%;
   border: 1px solid #ffffff;
   margin: 6px;
 }
 .footer .bee1 {
-  height: 58px;
-  width: 58px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   display: flex;
   align-content: center;
